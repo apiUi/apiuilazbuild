@@ -15,6 +15,9 @@ docker pull apiui/apiuilazbuild
 ## Clone apiUi repository
 You can find apiUi and apiUiServer sources [here](https://github.com/apiui/apiui).
 
+## Change working directory
+Open a Powershell at the subfolder Lazarus of the apiUi clone.
+
 ## build apiUi
 ```
 docker run -it --rm -v ${PWD}:/home/lazarus apiuilazbuild apiUi/apiUi.lpi
